@@ -1,5 +1,7 @@
 import org.apache.flink.streaming.api.scala.StreamExecutionEnvironment
 
+
+// 在本地客户端 输入命令  nc -lk 8888
 object first_StreamWordCount {
   def main(args: Array[String]): Unit = {
     // 初始化Flink的Streaming(流计算）上下文执行环境
